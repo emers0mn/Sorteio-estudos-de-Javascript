@@ -46,7 +46,11 @@ h1{
     color: white;
     font-family: gordita-regular;
     border-radius: 5px;
+    border-style: none;
     padding: 8px 25px;
+}
+.bt-azul:hover{
+    background-color: rgba(0, 87, 255, 0.5);;
 }
 
 .direitos{
