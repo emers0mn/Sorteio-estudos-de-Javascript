@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorteio</title>
+    <title>Decidido - Sua página de sorteio de nomes</title>
+    <link rel="shortcut icon" href="image/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1 class="center">Sorteio</h1>
+        <img src="image/logo.svg" alt="logo-Decidido" class="logo">
+        <h1>Sua página de sorteio de nomes</h1>
         <div class="center"><strong>Nome</strong>:</div>
         <div class="center">
-            <textarea name="" id="nome" cols="80" rows="10" placeholder="Escreva os nomes aqui, um por linha..."></textarea> <br>
+            <textarea name="" id="nome" placeholder="Escreva os nomes aqui, um por linha..."></textarea> <br>
             
-            <input type="button" value="Cadastrar" id="cadastro">
+            <input type="button" value="Sortear" id="cadastro" class="bt-azul">
          <br>
-        <br>
-        <input type="button" value="Sortear" id="sorteado">
-        <div id="pessoas"></div>
-        <div>
+         <div>
             <p><strong>A pessoa sorteada é: </strong> <span id="sortudo"></span></p>
         </div>
+        <input type="button" value="Compartilhar resultado" id="sorteado" class="bt-azul">
+        <div id="pessoas"></div>
         <script src="script.js"></script>
+
+        <footer>
+            <div class="direitos">Todos os direitos reservados: Emerson Pereria</div>
+        </footer>
 </body>
 </html>
