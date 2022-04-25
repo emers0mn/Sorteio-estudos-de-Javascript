@@ -43,12 +43,12 @@ h1{
     border-radius: 10px;
     width: 450px;
     height: 200px;
-    border: 7.01133px solid rgba(0, 87, 255, 0.5);
+    border: 7px solid rgba(0, 87, 255, 0.5);
     font-family: gordita-regular;
 
     position: relative;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-55%)
 }
 
 .bt-azul{
