@@ -12,32 +12,39 @@
 
 <body>
     <div class="content">
-        <img src="image/logo.svg" alt="logo-Decidido" class="logo">
-        <h1>Sua página de sorteio de nomes</h1>
+        <header>
+            <nav><a href="#">
+                <img src="image/logo.svg" alt="logo-Decidido" class="logo">
+                
+            </a></nav>
+            <h1>Sua página de sorteio de nomes</h1>
+        </header>
         <main>
             <div class="center"><strong>Nome</strong>:</div>
 
-            <textarea name="" id="nome" placeholder="Escreva os nomes aqui, um por linha. . ."></textarea> <br>
-            <div class="center">
-                <input type="button" value="Sortear" id="cadastro" class="bt-azul">
-                <br>
-            </div>
+            <article>
+                <section><textarea name="" id="nome" placeholder="Escreva os nomes aqui, um por linha. . ."></textarea></section>
+                <div class="center">
+                    <input type="button" value="Sortear" id="cadastro" class="bt-azul">
+                    <br>
+                </div>
+            </article>
 
-            <div>
+            <article>
                 <div class="center">
                     <p><strong>A pessoa sorteada é: </strong> <span id="sortudo"></span></p>
                 </div>
 
                 <input type="button" value="Compartilhar resultado" id="sorteado" class="bt-azul">
                 <script src="script.js"></script>
-            </div>
+            </article>
         </main>
     </div>
 
-
     <footer>
-        <div class="direitos">Todos os direitos reservados: <a
-                href="https://www.linkedin.com/in/emerson-pereira-34aa8a150/" target="_blank">Emerson Pereira</a></div>
+        <nav class="direitos">Todos os direitos reservados: <a
+                href="https://www.linkedin.com/in/emerson-pereira-34aa8a150/" target="_blank">Emerson Pereira</a>
+        </nav>
     </footer>
 </body>
 
